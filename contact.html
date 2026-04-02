@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact Muhammad Mujtaba through email, GitHub, or his portfolio website.">
+  <meta name="description" content="Contact Muhammad Mujtaba through email or GitHub Pages.">
   <title>Contact Us | Muhammad Mujtaba</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -27,54 +26,44 @@
     </header>
 
     <main class="page">
-      <section class="surface page-hero" data-reveal>
+      <section class="surface page-hero">
         <span class="eyebrow">Contact</span>
-        <h1>Let&apos;s connect in a simple and professional way.</h1>
+        <h1>Simple, professional, and easy to reach.</h1>
         <p>
-          This page keeps communication clear and easy. It includes direct contact information, GitHub access, and a quick
-          email form for straightforward communication.
+          This page keeps all contact information in one place. Since the website is fully static, the message form opens
+          your email application instead of using a server-side backend.
         </p>
       </section>
 
-      <section class="contact-grid" data-reveal>
+      <section class="contact-grid">
         <article class="surface contact-card">
-          <span class="mini-label">Direct Contact</span>
-          <h2 class="card-title">Reach me through the channels below</h2>
+          <span class="mini-label">Direct Details</span>
+          <h2>Contact information</h2>
           <ul class="contact-list">
             <li>
               <span class="meta-label">Email</span>
               <span class="meta-value">m.zahra.4454@gmail.com</span>
             </li>
             <li>
-              <span class="meta-label">GitHub</span>
-              <span class="meta-value">github.com/raju740</span>
-            </li>
-            <li>
               <span class="meta-label">Website</span>
               <span class="meta-value">raju740.github.io</span>
             </li>
             <li>
-              <span class="meta-label">LinkedIn</span>
-              <span class="meta-value">Can be added anytime</span>
+              <span class="meta-label">Field</span>
+              <span class="meta-value">Computer Engineering</span>
             </li>
           </ul>
-          <div class="contact-actions">
-            <a class="button" href="mailto:m.zahra.4454@gmail.com">Contact Me</a>
-            <a class="button-secondary" href="https://github.com/raju740" target="_blank" rel="noreferrer">GitHub Profile</a>
-            <a class="button-ghost" href="Muhammad-Mujtaba-CV.txt" download>Download CV</a>
+          <div class="cta-group">
+            <a class="button" href="mailto:m.zahra.4454@gmail.com">Send Email</a>
+            <a class="button-secondary" href="https://raju740.github.io/" target="_blank" rel="noreferrer">Visit Live Site</a>
           </div>
-          <p class="contact-note">
-            If you want this page to look even more complete later, a LinkedIn URL and a real profile image can be plugged
-            in very easily.
-          </p>
         </article>
 
-        <article class="surface contact-card">
+        <article class="surface form-card">
           <span class="mini-label">Quick Message</span>
-          <h2 class="card-title">Open your email app with a ready draft</h2>
+          <h2>Open your email app with a ready message</h2>
           <p>
-            Because this is a static portfolio site, the form below opens your default mail application instead of sending
-            data to a server.
+            Fill the fields below and submit if you want to draft a message through your device's default email client.
           </p>
           <form action="mailto:m.zahra.4454@gmail.com" method="post" enctype="text/plain">
             <div class="field-group">
@@ -95,16 +84,14 @@
               <button class="button" type="submit">Compose Message</button>
             </div>
           </form>
+          <p class="note">Because this site is static HTML, submitting the form opens an email draft instead of sending data through a web server.</p>
         </article>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Professional contact layout with direct links, email action, and CV access.</p>
-      <div class="footer-links">
-        <a class="link-inline" href="index.html">Back to Home</a>
-        <a class="link-inline" href="blog.html">Visit Blog</a>
-      </div>
+      <p>Contact page designed for a clean GitHub Pages presentation.</p>
+      <p><a class="link-inline" href="about.html">Read My Profile</a></p>
     </footer>
   </div>
 </body>

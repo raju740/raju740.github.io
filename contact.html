@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Muhammad Mujtaba through email or GitHub Pages.">
+  <title>Contact Us | Muhammad Mujtaba</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html">Muhammad Mujtaba</a>
+        <p>Computer Engineering Student</p>
+      </div>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html" aria-current="page">Contact Us</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="surface page-hero">
+        <span class="eyebrow">Contact</span>
+        <h1>Simple, professional, and easy to reach.</h1>
+        <p>
+          This page keeps all contact information in one place. Since the website is fully static, the message form opens
+          your email application instead of using a server-side backend.
+        </p>
+      </section>
+
+      <section class="contact-grid">
+        <article class="surface contact-card">
+          <span class="mini-label">Direct Details</span>
+          <h2>Contact information</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="meta-label">Email</span>
+              <span class="meta-value">m.zahra.4454@gmail.com</span>
+            </li>
+            <li>
+              <span class="meta-label">Website</span>
+              <span class="meta-value">raju740.github.io</span>
+            </li>
+            <li>
+              <span class="meta-label">Field</span>
+              <span class="meta-value">Computer Engineering</span>
+            </li>
+          </ul>
+          <div class="cta-group">
+            <a class="button" href="mailto:m.zahra.4454@gmail.com">Send Email</a>
+            <a class="button-secondary" href="https://raju740.github.io/" target="_blank" rel="noreferrer">Visit Live Site</a>
+          </div>
+        </article>
+
+        <article class="surface form-card">
+          <span class="mini-label">Quick Message</span>
+          <h2>Open your email app with a ready message</h2>
+          <p>
+            Fill the fields below and submit if you want to draft a message through your device's default email client.
+          </p>
+          <form action="mailto:m.zahra.4454@gmail.com" method="post" enctype="text/plain">
+            <div class="field-group">
+              <label for="name">
+                Your Name
+                <input id="name" name="Name" type="text" placeholder="Enter your name">
+              </label>
+              <label for="email">
+                Your Email
+                <input id="email" name="Email" type="email" placeholder="Enter your email">
+              </label>
+              <label for="message">
+                Your Message
+                <textarea id="message" name="Message" placeholder="Write your message here"></textarea>
+              </label>
+            </div>
+            <div class="cta-group">
+              <button class="button" type="submit">Compose Message</button>
+            </div>
+          </form>
+          <p class="note">Because this site is static HTML, submitting the form opens an email draft instead of sending data through a web server.</p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Contact page designed for a clean GitHub Pages presentation.</p>
+      <p><a class="link-inline" href="about.html">Read My Profile</a></p>
+    </footer>
+  </div>
+</body>
+</html>

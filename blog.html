@@ -7,8 +7,9 @@
   <title>Blog | Muhammad Mujtaba</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Sora:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="site-shell">
@@ -26,16 +27,33 @@
     </header>
 
     <main class="page">
-      <section class="surface page-hero">
+      <section class="surface page-hero" data-reveal>
         <span class="eyebrow">Blog</span>
-        <h1>Ten reflective articles from my journey in Computer Engineering.</h1>
+        <h1>Personal reflections from my Computer Engineering journey.</h1>
         <p>
-          This page lists all posts in one place. Each article opens on its own page so the full reflection can be read
-          clearly and professionally.
+          This section is designed like a proper reading archive. You can browse all article links here and open each post
+          separately to read the full reflection in a focused page layout.
         </p>
       </section>
 
-      <section class="blog-grid">
+      <section class="surface" data-reveal>
+        <div class="stat-grid">
+          <div class="hero-panel stat-card">
+            <strong>10</strong>
+            <span>Total articles</span>
+          </div>
+          <div class="hero-panel stat-card">
+            <strong>3</strong>
+            <span>Key points in every post</span>
+          </div>
+          <div class="hero-panel stat-card">
+            <strong>200+</strong>
+            <span>Words in every explanation</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="blog-grid" data-reveal>
         <article class="surface post-card">
           <span class="post-number">Article 1</span>
           <h2>Carefree College Life and Hidden Reality</h2>
@@ -179,8 +197,11 @@
     </main>
 
     <footer class="site-footer">
-      <p>All articles are separated into individual pages for clean reading.</p>
-      <p><a class="link-inline" href="index.html">Back to Home</a></p>
+      <p>A professional blog archive with clean links and dedicated full-post pages.</p>
+      <div class="footer-links">
+        <a class="link-inline" href="index.html">Back to Home</a>
+        <a class="link-inline" href="about.html">Read About Me</a>
+      </div>
     </footer>
   </div>
 </body>

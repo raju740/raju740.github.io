@@ -1,0 +1,48 @@
+Muhammad Mujtaba
+Computer Engineering Student | Problem Solver | Future ML Engineer
+
+Email:
+m.zahra.4454@gmail.com
+
+Website:
+https://raju740.github.io/
+
+GitHub:
+https://github.com/raju740
+
+Profile Summary:
+I am a Computer Engineering student focused on growth, discipline, and continuous improvement. My academic journey has
+helped me build patience, resilience, and a stronger technical mindset. I am especially interested in strengthening my
+software fundamentals and gradually moving toward machine learning.
+
+Education:
+Computer Engineering Student
+UET Faisalabad Campus
+
+Technical Skills:
+- C#
+- C++
+- Python
+- HTML
+- CSS
+- Git
+- VS Code
+- OOP
+- Data Structures
+
+Featured Work:
+1. Professional Portfolio Website
+   Responsive personal portfolio built with pure HTML, CSS, and JavaScript.
+
+2. CE Journey Blog Archive
+   Blog section containing ten reflective articles, each with its own dedicated page.
+
+3. Contact and CV Experience
+   Clean communication section with direct contact actions and downloadable profile content.
+
+Strengths:
+- Problem Solving
+- Time Management
+- Adaptability
+- Resilience
+- Consistent Learning
